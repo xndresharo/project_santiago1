@@ -1,10 +1,12 @@
-*** Año 2018 ***
+Santiago Haro
+
+*** Base Año 2018 ***
 clear all
 
 set more off
 
 ** Cargar la base del año 2018
-use "C:\Users\Santiago\Documents\UCM\TFM\Datos_Santiago_TFM\2018\MuestraIRPF_2018.dta"
+use "C:\Users\Santiago\Documents\UCM\TFM\Datos\2018\MuestraIRPF_2018.dta"
 
 gen A = Par19 + Par20 + Par21 + Par23
 
